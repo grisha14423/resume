@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+@media (max-width: 590px) {
+  .about-me h1 {
+    /* line-height: 33px; */
+    font-size: 1.5em;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  body {
+    margin-top: 20px !important;
+  }
+}
+
+body {
+  font-family: "Montserrat", Geneva, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 22px;
+  /* text-decoration: underline; */
+  /* letter-spacing: 1px;
+  word-spacing: 2px; */
+  color: #f1f1f1;
+  background: #202324;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.container {
+  max-width: 60%;
+  margin: auto;
+}
+
+.contacts {
+  height: 50px;
+}
+
+a {
+  color: #f1f1f1;
+  text-decoration: none;
+  transition: all 0.2s;
+  padding-right: 5px;
+}
+
+a:hover {
+  /* font-size: 18px; */
+  color: aqua;
+  text-decoration: underline;
+}
+
+/* a:visited {
+  color: blue;
+} */
+
+.btn {
+  background: rgb(36, 54, 61);
+  margin: 20px auto;
+  display: block;
+  height: 50px;
+  width: 200px;
+  padding: 5px;
+  color: #f1f1f1;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.btn:hover {
+  opacity: 0.5;
+  color: orange;
+}
+
+.card {
+  background-color: #262a2b;
+  margin-bottom: 10px;
+  padding: 10px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  line-height: 28px;
+  border: solid 2px #cff;
+  border-radius: 8px;
+}
+
+.hobbies {
+  background-color: rgb(36, 54, 61);
+  border-radius: 10px;
+  padding: 3px;
+}
+
+.hobbies ul li {
+  list-style: decimal;
+  padding-bottom: 2px;
+  /* border-bottom: 1px solid #cff; */
+  width: 50%;
+}
+
+.hobbies ul li ul {
+  padding-top: 10px;
+}
+
+.hobbies ul li ul li {
+  list-style: lower-alpha;
+}
+
+.experience table {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(36, 54, 61);
+  border-radius: 10px;
+}
+
+.experience table td {
+  padding: 10px;
+  text-align: center;
+}
+
+.me {
+  display: block;
+  height: 170px;
+  width: 200px;
+  border-radius: 10px;
+  margin-top: 2px;
+}
+
+.about-me {
+  /* width: 45%; */
+  display: inline-block;
+}
+
+.about-me h1,
+p {
+  padding-bottom: 30px;
+}
+
+.form h2 {
+  text-align: center;
+}
+
+.form-group label {
+  display: block;
+}
+
+.form-group input,
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #aaa;
+  padding: 15px;
+  outline: none;
+  font-family: inherit;
+}
+
+/* Пример */
+.table {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.table td {
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.table tr:nth-child(even) {
+  background: #2e3e;
+}
+
+.table tr:nth-child(odd) {
+  background: rgba(34, 65, 238, 0.933);
+}
+
+.table td:nth-child(2),
+.table td:nth-child(4) {
+  background: rgba(52, 197, 173, 0.933);
+}
+
+/* Пример 2*/
+.inline li {
+  /* display: flex; */
+  display: inline;
+}
+
+.box {
+  width: 32%;
+  border: 1px solid #777;
+  background: #9f9f9f;
+  display: inline-block;
+  /* display: inline; */
+}
+
+.img {
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin: 40px auto;
+}
+
+/* Пример 3*/
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+
+  background-color: #202324;
+}
+
+.navbar li {
+  display: inline;
+}
+
+.navbar ul li {
+  border: 1px solid #cff;
+  border-radius: 10px;
+  background-color: rgb(36, 54, 61);
+  padding: 5px;
+  margin-right: 10px;
+}
